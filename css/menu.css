@@ -1,0 +1,19 @@
+/* Menu section */
+.menu-section {
+    flex-direction: column;
+    margin: 150px 0;
+    height: 50vh;
+}
+
+.menu-section h1 {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.menu-section .menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+}
