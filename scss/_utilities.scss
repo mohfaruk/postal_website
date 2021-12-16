@@ -1,0 +1,98 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+//General Styles
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p {
+    margin: 10px 0;
+}
+
+hr {
+    border: dotted #a9a9a9 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+/* Utilities */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.text-purple {
+    color: #703b68;
+    font-weight: bold;
+}
+
+.line-break {
+    display: block;
+    margin-left: 20px;
+}
+
+.block {
+    display: block;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.menu-btn {
+    background-color: #703b68;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0 30px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.menu-btn:hover {
+    text-decoration: none;
+    background-color: #885f82;
+    color: #fff;
+}
+
+.submit-btn {
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #703b68;
+    color: #fff;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.submit-btn:hover {
+    background-color: #885f82;
+    cursor: pointer;
+}
