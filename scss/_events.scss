@@ -1,0 +1,64 @@
+/* Events Section */
+.events-content {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 4% 2%;
+    place-items: center;
+}
+
+.events-image {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 4% 0 5% 0;
+    margin: 40px 0;
+}
+
+.events-text {
+    color: #333;
+    width: 50%;
+    float: right;
+    line-height: 2rem;
+    padding-top: 5%;
+    margin: 40px 0;
+}
+
+.events-text a {
+    font-size: 1.5rem;
+}
+
+.events-text a:hover {
+    text-decoration: none;
+    color:#885f82;
+}
+
+.catering-photo {
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    border-radius: 50%;
+}
+
+/* Quotation Section */
+.quotation-bg {
+    margin: 80px 0;
+    background: $quote-image no-repeat center/cover;
+    height: 60vh;
+    position: relative;
+    color: #fff;
+}
+
+.quote-mark {
+    font-size: 2.5rem;
+}
+
+.quotation-text {
+    margin: 50px 0;
+    font-size: 1.4rem;
+}
+
+.slide-left {
+    animation: slide 2s ease;
+    opacity: 1;
+  }

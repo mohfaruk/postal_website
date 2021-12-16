@@ -1,0 +1,50 @@
+/* About Section */
+.about-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 4% 2%;
+    place-items: center;
+}
+
+.about-text {
+    color: #333;
+    width: 50%;
+    float: left;
+    line-height: 2rem;
+    padding: 4% 0 5% 0;
+    margin: 40px 0;
+}
+
+.about-image {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+    margin: 40px 0;
+}
+
+.catering-photo {
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+/* Images Section */
+#image-section {
+    flex-direction: column;
+    text-align: center;
+    height: 60vh;
+}
+
+#image-section .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    margin: 40px 0;
+}
