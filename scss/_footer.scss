@@ -1,22 +1,23 @@
 /* Footer */
-footer {
+.footer {
     text-align: center;
     padding: 5px;
     background: #444;
-}
 
-footer p {
-    text-align: center;
-    color: #fff;
-    padding: 10px 0;
-}
+    &-icon {
+        color: #fff;
+        padding: 1%;
+    }
 
-.footer-icon {
-    color: #fff;
-    padding: 1%;
-}
+    &-icon:hover {
+        cursor: pointer;
+        color: #C8C6C6;
+    }
 
-.footer-icon:hover {
-    cursor: pointer;
-    color: #C8C6C6;
+    p {
+        text-align: center;
+        color: #fff;
+        padding: 10px 0;
+    }
+
 }

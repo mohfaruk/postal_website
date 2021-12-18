@@ -10,7 +10,7 @@
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="../scss/main.css" />
-  
+
   <!-- Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
@@ -35,17 +35,17 @@
 <body>
 
   <!-- Navigation Bar -->
-  <nav class="navbar fixed-top navbar-expand navbar-dark top">
-    <h4 class="logo">
-      <a href="../dist/index.html" class="logo">Premier<span class="line-break">Catering</span></a>
+  <nav class="navbar fixed-top navbar-expand top">
+    <h4 class="navbar-logo">
+      <a href="../dist/index.html" class="navbar-logo-text">Premier<span class="line-break">Catering</span></a>
     </h4>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#about-content">About Us</a>
+          <a class="nav-link" href="#about-section">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#events-content">Events</a>
+          <a class="nav-link" href="#events-section">Events</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact-form">Contact</a>
@@ -54,7 +54,7 @@
     </div>
   </nav>
 
-<!-- Header Image -->
+  <!-- Header Image -->
   <section id="header">
     <header class="header-bg">
       <div class="content">
@@ -66,24 +66,26 @@
   </section>
 
   <!-- About Section -->
-  <section id="about-content" data-aos="fade-up">
-    <div class="container">
-      <div class="about-text">
-        <h1><span class="text-purple">About</span> Premier Catering</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
-          blanditiis praesentium vero? Est blanditiis nesciunt reiciendis
-          dolorem unde quo ad incidunt aliquid ut accusantium mollitia magnam,
-          voluptatum consequatur quasi nobis beatae et error aspernatur!
-          <br />Unde deserunt voluptates commodi sint porro possimus illum
-          expedita architecto explicabo. Necessitatibus dicta modi eius id.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nam
-          distinctio doloremque dolorum reprehenderit nisi, culpa deleniti
-          aliquam? Ipsum, aut!
-        </p>
-      </div>
-      <div class="about-image">
-        <img class="catering-photo" src="./images/about-image.jpg" />
+  <section id="about-section" data-aos="fade-up">
+    <div class="about-content">
+      <div class="container">
+        <div class="about-text">
+          <h1><span class="text-purple">About</span> Premier Catering</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
+            blanditiis praesentium vero? Est blanditiis nesciunt reiciendis
+            dolorem unde quo ad incidunt aliquid ut accusantium mollitia magnam,
+            voluptatum consequatur quasi nobis beatae et error aspernatur!
+            <br />Unde deserunt voluptates commodi sint porro possimus illum
+            expedita architecto explicabo. Necessitatibus dicta modi eius id.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nam
+            distinctio doloremque dolorum reprehenderit nisi, culpa deleniti
+            aliquam? Ipsum, aut!
+          </p>
+        </div>
+        <div class="about-image">
+          <img class="about-image-photo" src="./images/about-image.jpg" />
+        </div>
       </div>
     </div>
   </section>
@@ -116,9 +118,9 @@
       </div>
     </div>
   </section>
-  
+
   <!-- Events Section -->
-  <section id="events-content" data-aos="fade-up">
+  <section id="events-section" data-aos="fade-up">
     <div class="container">
       <div class="events-text">
         <h1><span class="text-purple">Events</span> We Cater</h1>
@@ -136,28 +138,28 @@
         <a href="../dist/images/Menu1.jpg" target="_blank" class="block text-purple">> Open Menu</a>
       </div>
       <div class="events-image">
-        <img class="catering-photo" src="./images/event-image.jpg" />
+        <img class="events-image-photo" src="./images/event-image.jpg" />
       </div>
     </div>
   </section>
 
   <!-- Quotation Section-->
-  <section id="quotation">
+  <section id="quotation-section">
     <header class="quotation-bg">
-    <div class="container">
-      <div class="content">
-      <h5 class="quotation-text" data-aos="fade-right">
-        <span class="block quote-mark">❝</span>
-        <span class="block">This is the place that I highly recommended</span>
-        <span class="block">if you want to host an event with authentic</span>
-        <span class="block">Indian cuisine. The meats were superb, you can</span>
-        <span class="block">really taste how fresh the ingredients are.</span>
-        <span class="block">The service was extraordinary, and I would</span>
-        <span class="block">definitely return!</span>
-        <span class="block quote-mark">❞</span>
-      </h5>
-    </div>
-  </div>
+      <div class="container">
+        <div class="content">
+          <h5 class="quotation-text" data-aos="fade-right">
+            <span class="block quote-mark">❝</span>
+            <span class="block">This is the place that I highly recommended</span>
+            <span class="block">if you want to host an event with authentic</span>
+            <span class="block">Indian cuisine. The meats were superb, you can</span>
+            <span class="block">really taste how fresh the ingredients are.</span>
+            <span class="block">The service was extraordinary, and I would</span>
+            <span class="block">definitely return!</span>
+            <span class="block quote-mark">❞</span>
+          </h5>
+        </div>
+      </div>
     </header>
   </section>
 
@@ -188,25 +190,29 @@
 
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <i class="footer-icon fab fa-twitter fa-1x"></i>
     <i class="footer-icon fab fa-facebook-square fa-1x"></i>
     <i class="footer-icon fab fa-instagram fa-1x"></i>
     <i class="footer-icon fas fa-envelope fa-1x"></i>
-    <p>Copyright &copy; 2021 - Premier Catering</p>
+    <p>Copyright &copy; 2022 - Premier Catering</p>
   </footer>
 
 </body>
 <!-- JQuery Script -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  
-  <!-- AOS Script -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({offset: 200, duration: 1000}); //Slows down scroll effect
-  </script>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 200,
+    duration: 1000
+  }); //Slows down scroll effect
+</script>
 
 <!-- JavaScript Script -->
-  <script src="./app.js"></script>
+<script src="./app.js"></script>
+
 </html>
