@@ -12,7 +12,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background: #fff;
-    color: #333;
+    color: $text-colour;
 }
 
 ul {
@@ -20,7 +20,7 @@ ul {
 }
 
 a {
-    color: #333;
+    color: $text-colour;
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ hr {
 }
 
 .text-purple {
-    color: #703b68;
+    color: $main-colour;
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ hr {
 
 /* Buttons */
 .menu-btn {
-    background-color: #703b68;
+    background-color: $main-colour;
     font-size: 20px;
     color: #fff;
     margin: 20px 0 30px;
@@ -78,7 +78,7 @@ hr {
 
 .menu-btn:hover {
     text-decoration: none;
-    background-color: #885f82;
+    background-color: $secondary-colour;
     color: #fff;
 }
 
@@ -86,13 +86,13 @@ hr {
     height: 50px;
     width: 70px;
     border-radius: 5px;
-    background-color: #703b68;
+    background-color: $main-colour;
     color: #fff;
     margin-bottom: 30px;
     transition: all 0.5s;
 }
 
 .submit-btn:hover {
-    background-color: #885f82;
+    background-color: $secondary-colour;
     cursor: pointer;
 }

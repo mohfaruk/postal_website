@@ -2,27 +2,26 @@
 #contact-form {
     width: 100%;
     margin-bottom: 20px;
-}
 
-#contact-form label {
-    display: block;
-    margin-bottom: 5px;
-}
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
 
-#contact-form input,
-#contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px #ddd solid;
-}
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px #ddd solid;
+    }
 
-#contact-form textarea {
-    height: 200px;
-}
+    textarea {
+        height: 200px;
+    }
 
-#contact-form input:focus,
-#contact-form textarea:focus
- {
-    outline: none;
-    border-color: #885f82;
+    input:focus,
+    textarea:focus {
+        outline: none;
+        border-color: #885f82;
+    }
 }
