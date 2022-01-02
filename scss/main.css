@@ -49,7 +49,7 @@ hr {
 }
 
 .text-purple {
-  color: #703b68;
+  color: #00b4d8;
   font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ hr {
 
 /* Buttons */
 .menu-btn {
-  background-color: #703b68;
+  background-color: #00b4d8;
   font-size: 20px;
   color: #fff;
   margin: 20px 0 30px;
@@ -78,7 +78,7 @@ hr {
 
 .menu-btn:hover {
   text-decoration: none;
-  background-color: #885f82;
+  background-color: #5ec7da;
   color: #fff;
 }
 
@@ -86,7 +86,7 @@ hr {
   height: 50px;
   width: 70px;
   border-radius: 5px;
-  background-color: #703b68;
+  background-color: #00b4d8;
   color: #fff;
   margin-bottom: 30px;
   -webkit-transition: all 0.5s;
@@ -94,7 +94,7 @@ hr {
 }
 
 .submit-btn:hover {
-  background-color: #885f82;
+  background-color: #5ec7da;
   cursor: pointer;
 }
 
@@ -120,12 +120,9 @@ hr {
   transition: 0.5s;
 }
 
-.navbar-logo-text,
-.navbar-logo-text span {
+.navbar-logo {
   margin-left: 100px;
-  color: #c530af;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'Satisfy', cursive;
+  cursor: pointer;
 }
 
 .navbar-logo-text:hover {
@@ -144,8 +141,10 @@ hr {
 }
 
 .navbar-nav .nav-link:hover {
-  text-decoration: none;
-  background-color: #703b68;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #00b4d8;
+          text-decoration-color: #00b4d8;
+  text-decoration-thickness: 5px;
 }
 
 /* Header */
@@ -277,7 +276,7 @@ hr {
 
 .events-text a:hover {
   text-decoration: none;
-  color: #885f82;
+  color: #5ec7da;
 }
 
 .events-image {
