@@ -1,4 +1,4 @@
-@media (max-width: 780px) {
+@media (max-width: 600px) {
     .navbar {
         &-logo {
             display: none;
@@ -12,38 +12,25 @@
             padding: 0;
             right: 15%;
             left: 30%;
-        }
-    }
-
-    #about-section .about-text,
-    #about-section .about-image,
-    #events-section .events-text,
-    #events-section .events-image {
-        float: none;
-        width: auto;
-    }
-
-    #image-section .images {
-        transform: scale(0.8);
-    }
-}
-
-@media (max-width: 751px) {
-    .navbar {
-        &-nav {
             margin-bottom: 15px;
         }
 
         &-link {
-           margin: 0;
-        }
+            margin: 0;
+         }
     }
-}
 
-@media (max-width: 600px) {
+    #about-section .about-text,
+    #about-section .about-image,
+    #pricing-section .pricing-text,
+    #pricing-section .pricing-image {
+        float: none;
+        width: auto;
+    }
+
     .header {
         &-bg {
-            height: 80vh;
+            height: 100vh;
 
             .content h1 {
                 font-size: 30px;
@@ -61,10 +48,6 @@
         }
     }
 
-    #image-section .images {
-        transform: scale(0.7);
-    }
-
     .quotation {
         &-text {
             margin: 50px 0;
@@ -74,5 +57,13 @@
         &-mark {
             font-size: 1.5rem;
         }
+    }
+
+    #contact-form {
+        .telephone, .email {
+        display: block;
+        width: 50%;
+        margin: 0;
+    }
     }
 }

@@ -54,11 +54,6 @@ hr {
     font-weight: bold;
 }
 
-.line-break {
-    display: block;
-    margin-left: 20px;
-}
-
 .block {
     display: block;
     font-style: italic;
@@ -66,9 +61,8 @@ hr {
 }
 
 /* Buttons */
-.menu-btn {
+.btn {
     background-color: $main-colour;
-    font-size: 20px;
     color: #fff;
     margin: 20px 0 30px;
     padding: 10px;
@@ -76,23 +70,8 @@ hr {
     transition: all 0.5s;
 }
 
-.menu-btn:hover {
+.btn:hover {
     text-decoration: none;
     background-color: $secondary-colour;
     color: #fff;
-}
-
-.submit-btn {
-    height: 50px;
-    width: 70px;
-    border-radius: 5px;
-    background-color: $main-colour;
-    color: #fff;
-    margin-bottom: 30px;
-    transition: all 0.5s;
-}
-
-.submit-btn:hover {
-    background-color: $secondary-colour;
-    cursor: pointer;
 }

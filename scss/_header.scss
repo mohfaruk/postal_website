@@ -17,11 +17,6 @@
         cursor: pointer;
     }
 
-    &-logo-text:hover {
-        text-decoration: none;
-        color: $logo-colour;
-    }
-
     &-nav {
         margin-right: 100px;
 
@@ -79,6 +74,13 @@
                 max-width: 600px;
                 margin: 20px 0 30px;
             }
+        }
+
+        a {
+            height: 50px;
+            width: 150px;
+            font-size: 1.3rem;
+            font-weight: bold;
         }
     }
 }

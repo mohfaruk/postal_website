@@ -1,0 +1,83 @@
+[33mcommit 46f0d7ef8440b6aeb0459f2e7056b0031abeb7c0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 16fb321 99f5bba
+Author: mohfaruk <83559674+mohfaruk@users.noreply.github.com>
+Date:   Sun Jan 2 20:47:10 2022 +0000
+
+    Merge pull request #4 from mohfaruk/sass
+    
+    Conversion to postal website
+
+[33mcommit 99f5bbae15120faf9b76e496417b0de06573072e[m[33m ([m[1;31morigin/sass[m[33m)[m
+Author: Mohamad Faruk <mohamadfaruk.uk~gmail.com>
+Date:   Sun Jan 2 20:42:57 2022 +0000
+
+    first commit
+
+[33mcommit 16fb3215a018e47009b657ddfa04e634a64f1340[m
+Merge: c1723d2 0732d17
+Author: mohfaruk <83559674+mohfaruk@users.noreply.github.com>
+Date:   Sat Dec 18 17:53:19 2021 +0000
+
+    Merge pull request #3 from mohfaruk/sass
+    
+    version 3 - sass cleanup
+
+[33mcommit 0732d1731364fe7b80ee2e07459295d3cded5e3c[m
+Author: Mohamad Faruk <mohamadfaruk.uk~gmail.com>
+Date:   Sat Dec 18 17:51:38 2021 +0000
+
+    version 3 - sass cleanup
+
+[33mcommit c1723d230f669634132809602d988d1d8fbe4026[m
+Merge: 18ca6bc dd6dd3c
+Author: mohfaruk <83559674+mohfaruk@users.noreply.github.com>
+Date:   Thu Dec 16 14:36:38 2021 +0000
+
+    Merge pull request #2 from mohfaruk/sass
+    
+    version 3
+
+[33mcommit dd6dd3c5e297e5e28c86a5ac0ed2683c0626a8aa[m
+Author: Mohamad Faruk <mohamadfaruk.uk~gmail.com>
+Date:   Thu Dec 16 14:35:26 2021 +0000
+
+    version 3
+
+[33mcommit 18ca6bc20dd915e7111d423710880d93388c293f[m
+Author: mohfaruk <83559674+mohfaruk@users.noreply.github.com>
+Date:   Sat Dec 4 14:41:16 2021 +0000
+
+    Update README.md
+
+[33mcommit 284fe4f202f14a608c28d716aae3788dbfa3bea0[m
+Author: mohfaruk <83559674+mohfaruk@users.noreply.github.com>
+Date:   Sat Dec 4 14:40:31 2021 +0000
+
+    Update README.md
+
+[33mcommit 0c271132121b5e632fb94a018ca6f5bf7990a786[m
+Author: mohfaruk <83559674+mohfaruk@users.noreply.github.com>
+Date:   Sat Dec 4 14:39:45 2021 +0000
+
+    Create README.md
+
+[33mcommit dbc32e3b119332bdc7c4fe5d50054add586b8707[m
+Merge: e7f0d66 71222b6
+Author: mohfaruk <83559674+mohfaruk@users.noreply.github.com>
+Date:   Sat Dec 4 14:38:09 2021 +0000
+
+    Merge pull request #1 from mohfaruk/master
+    
+    Version 2 - pre deployment
+
+[33mcommit 71222b62d9e1424d00becb845cd18d7eaeb13f51[m[33m ([m[1;31morigin/version_3[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Mohamad Faruk <mohamadfaruk.uk~gmail.com>
+Date:   Sat Dec 4 14:36:04 2021 +0000
+
+    Version 2 - pre deployment
+
+[33mcommit e7f0d66c43a83948b079ed251238249da010c46a[m
+Author: Mohamad Faruk <mohamadfaruk.uk~gmail.com>
+Date:   Tue Nov 9 09:44:14 2021 +0000
+
+    initial commit

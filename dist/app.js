@@ -1,5 +1,5 @@
 // Navbar Hidden Effect
-const navbar = document.querySelector(".navbar");
+const scroll = document.querySelector(".scroll");
 let scrolled = false;
 
 window.onscroll = function () {
@@ -7,22 +7,22 @@ window.onscroll = function () {
   if (window.pageYOffset > 100) {
     //When scrolled the navbar rises by 70 px
     if (!scrolled) {
-      navbar.style.transform = "translateY(-70px)";
+      scroll.style.transform = "translateY(-70px)";
     }
     //Function removes it after 1 second
     setTimeout(function () {
-      navbar.style.transform = "translateY(0)";
+      scroll.style.transform = "translateY(0)";
     }, 1000);
   } else {
     //Resets back to normal
-    navbar.classList.add("top");
+    scroll.classList.add("top");
     scrolled = false;
   }
 };
 
 // Smooth Scrolling
-$(".navbar a").on("click", function (event) {
-  //When navbar link is clicked
+$(".scroll a").on("click", function (event) {
+  //When link is clicked
   if (this.hash !== "") {
     //When it detects section with initial #
     const hash = this.hash;

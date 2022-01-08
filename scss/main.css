@@ -53,11 +53,6 @@ hr {
   font-weight: bold;
 }
 
-.line-break {
-  display: block;
-  margin-left: 20px;
-}
-
 .block {
   display: block;
   font-style: italic;
@@ -65,9 +60,8 @@ hr {
 }
 
 /* Buttons */
-.menu-btn {
+.btn {
   background-color: #00b4d8;
-  font-size: 20px;
   color: #fff;
   margin: 20px 0 30px;
   padding: 10px;
@@ -76,26 +70,10 @@ hr {
   transition: all 0.5s;
 }
 
-.menu-btn:hover {
+.btn:hover {
   text-decoration: none;
   background-color: #5ec7da;
   color: #fff;
-}
-
-.submit-btn {
-  height: 50px;
-  width: 70px;
-  border-radius: 5px;
-  background-color: #00b4d8;
-  color: #fff;
-  margin-bottom: 30px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.submit-btn:hover {
-  background-color: #5ec7da;
-  cursor: pointer;
 }
 
 /* Navbar */
@@ -123,11 +101,6 @@ hr {
 .navbar-logo {
   margin-left: 100px;
   cursor: pointer;
-}
-
-.navbar-logo-text:hover {
-  text-decoration: none;
-  color: #c530af;
 }
 
 .navbar-nav {
@@ -198,6 +171,13 @@ hr {
   margin: 20px 0 30px;
 }
 
+.header-bg a {
+  height: 50px;
+  width: 150px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 /* About Section */
 .about-content {
   height: 100%;
@@ -225,8 +205,8 @@ hr {
 }
 
 .about-image-photo {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   margin: auto;
   display: block;
   border-radius: 50%;
@@ -262,7 +242,7 @@ hr {
 }
 
 /* Events Section */
-.events-text {
+.pricing-text {
   color: #333;
   width: 50%;
   float: right;
@@ -270,26 +250,16 @@ hr {
   margin: 40px 0;
 }
 
-.events-text a {
-  font-size: 1.5rem;
-}
-
-.events-text a:hover {
-  text-decoration: none;
-  color: #5ec7da;
-}
-
-.events-image {
+.pricing-image {
   float: left;
   width: 50%;
   height: 100%;
   padding: 4% 0 5% 0;
-  margin: 40px 0;
 }
 
-.events-image-photo {
-  width: 20rem;
-  height: 20rem;
+.pricing-image-photo {
+  width: 25rem;
+  height: 25rem;
   display: block;
   border-radius: 50%;
 }
@@ -337,7 +307,21 @@ hr {
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
-  border-color: #885f82;
+  border-color: #5ec7da;
+}
+
+#contact-form .telephone,
+#contact-form .email {
+  display: inline-block;
+}
+
+#contact-form .telephone input,
+#contact-form .email input {
+  width: 200%;
+}
+
+#contact-form .email {
+  margin-left: 300px;
 }
 
 /* Footer */
@@ -363,7 +347,7 @@ hr {
   padding: 10px 0;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 600px) {
   .navbar-logo {
     display: none;
   }
@@ -379,32 +363,20 @@ hr {
     padding: 0;
     right: 15%;
     left: 30%;
-  }
-  #about-section .about-text,
-  #about-section .about-image,
-  #events-section .events-text,
-  #events-section .events-image {
-    float: none;
-    width: auto;
-  }
-  #image-section .images {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-}
-
-@media (max-width: 751px) {
-  .navbar-nav {
     margin-bottom: 15px;
   }
   .navbar-link {
     margin: 0;
   }
-}
-
-@media (max-width: 600px) {
+  #about-section .about-text,
+  #about-section .about-image,
+  #pricing-section .pricing-text,
+  #pricing-section .pricing-image {
+    float: none;
+    width: auto;
+  }
   .header-bg {
-    height: 80vh;
+    height: 100vh;
   }
   .header-bg .content h1 {
     font-size: 30px;
@@ -417,16 +389,17 @@ hr {
     margin: 10px 0 20px;
     padding: 10px;
   }
-  #image-section .images {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
-  }
   .quotation-text {
     margin: 50px 0;
     font-size: 1.2rem;
   }
   .quotation-mark {
     font-size: 1.5rem;
+  }
+  #contact-form .telephone, #contact-form .email {
+    display: block;
+    width: 50%;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
