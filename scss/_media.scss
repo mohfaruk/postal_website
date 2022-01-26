@@ -1,6 +1,5 @@
-@media (max-width: 480px) 
-  and (max-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
+@media (max-width: 600px), 
+  and (max-height: 640px) {
 
     .navbar {
         &-logo {
