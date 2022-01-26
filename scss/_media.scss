@@ -1,6 +1,5 @@
-@media screen 
-  and (device-width: 650px) 
-  and (device-height: 640px) 
+@media (max-width: 480px) 
+  and (max-height: 640px) 
   and (-webkit-device-pixel-ratio: 4) {
 
     .navbar {
