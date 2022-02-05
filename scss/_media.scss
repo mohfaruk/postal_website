@@ -1,7 +1,4 @@
-@media screen 
-  and (device-width: 480px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
+@media (max-width: 1024px) {
 
     .navbar {
         &-logo {
@@ -24,17 +21,9 @@
          }
     }
 
-    #about-section .about-text,
-    #about-section .about-image,
-    #pricing-section .pricing-text,
-    #pricing-section .pricing-image {
-        float: none;
-        width: auto;
-    }
-
     .header {
         &-bg {
-            height: 100vh;
+            height: 80vh;
 
             .content h1 {
                 font-size: 30px;
@@ -52,6 +41,21 @@
         }
     }
 
+    #about-section .about-text,
+    #about-section .about-image,
+    #pricing-section .pricing-text,
+    #pricing-section .pricing-image {
+        float: none;
+        width: auto;
+    }
+
+    .about-image, .pricing-image {
+        &-photo {
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+
     .quotation {
         &-text {
             margin: 50px 0;
@@ -65,80 +69,9 @@
 
     #contact-form {
         .telephone, .email {
-        display: block;
-        width: 10%;
-        margin: 0;
-        visibility: hidden;
-    }
+            display: block;
+            width: 50%;
+            margin: 0;
+        }
     }
 }
-
-// @media (max-width: 600px) {
-//     .navbar {
-//         &-logo {
-//             display: none;
-//         }
-
-//         &-nav {
-//             text-align: center;
-//             justify-content: center;
-//             align-items: center;
-//             position: absolute;
-//             padding: 0;
-//             right: 15%;
-//             left: 30%;
-//             margin-bottom: 15px;
-//         }
-
-//         &-link {
-//             margin: 0;
-//          }
-//     }
-
-//     #about-section .about-text,
-//     #about-section .about-image,
-//     #pricing-section .pricing-text,
-//     #pricing-section .pricing-image {
-//         float: none;
-//         width: auto;
-//     }
-
-//     .header {
-//         &-bg {
-//             height: 100vh;
-
-//             .content h1 {
-//                 font-size: 30px;
-//             }
-
-//             .content p {
-//                 font-size: 15px;
-//             }
-
-//             .menu-btn {
-//                 font-size: 15px;
-//                 margin: 10px 0 20px;
-//                 padding: 10px;
-//             }
-//         }
-//     }
-
-//     .quotation {
-//         &-text {
-//             margin: 50px 0;
-//             font-size: 1.2rem;
-//         }
-
-//         &-mark {
-//             font-size: 1.5rem;
-//         }
-//     }
-
-//     #contact-form {
-//         .telephone, .email {
-//         display: block;
-//         width: 50%;
-//         margin: 0;
-//     }
-//     }
-// }

@@ -260,6 +260,7 @@ hr {
 .pricing-image-photo {
   width: 20rem;
   height: 20rem;
+  margin: auto;
   display: block;
   border-radius: 50%;
 }
@@ -347,7 +348,7 @@ hr {
   padding: 10px 0;
 }
 
-@media screen and (device-width: 480px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+@media (max-width: 1024px) {
   .navbar-logo {
     display: none;
   }
@@ -368,15 +369,8 @@ hr {
   .navbar-link {
     margin: 0;
   }
-  #about-section .about-text,
-  #about-section .about-image,
-  #pricing-section .pricing-text,
-  #pricing-section .pricing-image {
-    float: none;
-    width: auto;
-  }
   .header-bg {
-    height: 100vh;
+    height: 80vh;
   }
   .header-bg .content h1 {
     font-size: 30px;
@@ -389,6 +383,17 @@ hr {
     margin: 10px 0 20px;
     padding: 10px;
   }
+  #about-section .about-text,
+  #about-section .about-image,
+  #pricing-section .pricing-text,
+  #pricing-section .pricing-image {
+    float: none;
+    width: auto;
+  }
+  .about-image-photo, .pricing-image-photo {
+    width: 15rem;
+    height: 15rem;
+  }
   .quotation-text {
     margin: 50px 0;
     font-size: 1.2rem;
@@ -398,9 +403,8 @@ hr {
   }
   #contact-form .telephone, #contact-form .email {
     display: block;
-    width: 10%;
+    width: 50%;
     margin: 0;
-    visibility: hidden;
   }
 }
 /*# sourceMappingURL=main.css.map */
