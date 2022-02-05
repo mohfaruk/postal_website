@@ -1,161 +1,82 @@
-<<<<<<< HEAD
 @media (max-width: 1024px) {
-=======
-// @media (max-width: 600px) {
 
-//     .navbar {
-//         &-logo {
-//             display: none;
-//         }
-
-//         &-nav {
-//             text-align: center;
-//             justify-content: center;
-//             align-items: center;
-//             position: absolute;
-//             padding: 0;
-//             right: 15%;
-//             left: 30%;
-//             margin-bottom: 15px;
-//         }
-
-//         &-link {
-//             margin: 0;
-//          }
-//     }
-
-//     #about-section .about-text,
-//     #about-section .about-image,
-//     #pricing-section .pricing-text,
-//     #pricing-section .pricing-image {
-//         float: none;
-//         width: auto;
-//     }
-
-//     .header {
-//         &-bg {
-//             height: 100vh;
-
-//             .content h1 {
-//                 font-size: 30px;
-//             }
-
-//             .content p {
-//                 font-size: 15px;
-//             }
-
-//             .menu-btn {
-//                 font-size: 15px;
-//                 margin: 10px 0 20px;
-//                 padding: 10px;
-//             }
-//         }
-//     }
-
-//     .quotation {
-//         &-text {
-//             margin: 50px 0;
-//             font-size: 1.2rem;
-//         }
-
-//         &-mark {
-//             font-size: 1.5rem;
-//         }
-//     }
-
-//     #contact-form {
-//         .telephone, .email {
-//         display: block;
-//         width: 10%;
-//         margin: 0;
-//         visibility: hidden;
-//     }
-//     }
-// }
->>>>>>> 954936dfeb6e6ccc1a9d41d34f1dabac4efb1466
-
-@media screen and (min-width: 600px) and (orientation: landscape) {
-    .navbar {
-        &-logo {
-            display: none;
-        }
-
-        &-nav {
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            padding: 0;
-            right: 15%;
-            left: 30%;
-            margin-bottom: 15px;
-        }
-
-        &-link {
-            margin: 0;
-         }
-    }
-
-    .header {
-        &-bg {
-            height: 80vh;
-
-            .content h1 {
-                font-size: 30px;
+    @media screen and (min-width: 600px) and (orientation: landscape) {
+        .navbar {
+            &-logo {
+                display: none;
             }
 
-            .content p {
-                font-size: 15px;
+            &-nav {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                padding: 0;
+                right: 15%;
+                left: 30%;
+                margin-bottom: 15px;
             }
 
-            .menu-btn {
-                font-size: 15px;
-                margin: 10px 0 20px;
-                padding: 10px;
+            &-link {
+                margin: 0;
             }
         }
-    }
 
-    #about-section .about-text,
-    #about-section .about-image,
-    #pricing-section .pricing-text,
-    #pricing-section .pricing-image {
-        float: none;
-        width: auto;
-    }
+        .header {
+            &-bg {
+                height: 80vh;
 
-    .about-image, .pricing-image {
-        &-photo {
-            width: 15rem;
-            height: 15rem;
-        }
-    }
+                .content h1 {
+                    font-size: 30px;
+                }
 
-    .quotation {
-        &-text {
-            margin: 50px 0;
-            font-size: 1.2rem;
+                .content p {
+                    font-size: 15px;
+                }
+
+                .menu-btn {
+                    font-size: 15px;
+                    margin: 10px 0 20px;
+                    padding: 10px;
+                }
+            }
         }
 
-        &-mark {
-            font-size: 1.5rem;
+        #about-section .about-text,
+        #about-section .about-image,
+        #pricing-section .pricing-text,
+        #pricing-section .pricing-image {
+            float: none;
+            width: auto;
         }
-    }
 
-    #contact-form {
-        .telephone, .email {
-<<<<<<< HEAD
-            display: block;
-            width: 50%;
-            margin: 0;
+        .about-image,
+        .pricing-image {
+            &-photo {
+                width: 15rem;
+                height: 15rem;
+            }
+        }
+
+        .quotation {
+            &-text {
+                margin: 50px 0;
+                font-size: 1.2rem;
+            }
+
+            &-mark {
+                font-size: 1.5rem;
+            }
+        }
+
+        #contact-form {
+
+            .telephone,
+            .email {
+                display: block;
+                width: 50%;
+                margin: 0;
+            }
         }
     }
 }
-=======
-        display: block;
-        width: 50%;
-        margin: 0;
-    }
-    }
-}
->>>>>>> 954936dfeb6e6ccc1a9d41d34f1dabac4efb1466
