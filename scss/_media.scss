@@ -1,78 +1,88 @@
 @media(max-width: 1024px) {
-        .navbar {
-            &-logo {
-                display: none;
-            }
-
-            &-nav {
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-                position: absolute;
-                padding: 0;
-                right: 15%;
-                left: 30%;
-                margin-bottom: 15px;
-            }
-
-            &-link {
-                margin: 0;
-            }
+    .navbar {
+        &-logo {
+            display: none;
         }
 
-        .header {
-            &-bg {
-                height: 80vh;
-
-                .content h1 {
-                    font-size: 35px;
-                }
-
-                .content p {
-                    font-size: 15px;
-                }
-
-                .menu-btn {
-                    font-size: 15px;
-                    margin: 10px 0 20px;
-                    padding: 10px;
-                }
-            }
+        &-nav {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            padding: 0;
+            right: 15%;
+            left: 30%;
+            margin-bottom: 15px;
         }
 
-        #about-section .about-text,
-        #about-section .about-image,
-        #pricing-section .pricing-text,
-        #pricing-section .pricing-image {
-            float: none;
-            width: auto;
+        &-link {
+            margin: 0;
         }
+    }
 
-        .about-image,
-        .pricing-image {
-            &-photo {
-                width: 15rem;
-                height: 15rem;
-            }
-        }
+    .header {
+        &-bg {
+            height: 80vh;
 
-        .quotation {
-            &bg {
-                height: 30vh;
+            .content h1 {
+                font-size: 35px;
             }
 
-            &-mark {
-                font-size: 1.5rem;
+            .content p {
+                font-size: 15px;
+            }
+
+            .menu-btn {
+                font-size: 15px;
+                margin: 10px 0 20px;
+                padding: 10px;
             }
         }
+    }
 
-        #contact-form {
+    #about-section .about-text,
+    #about-section .about-image,
+    #pricing-section .pricing-text,
+    #pricing-section .pricing-image {
+        float: none;
+        width: auto;
+    }
 
-            .telephone,
-            .email {
-                display: block;
-                width: 50%;
-                margin: 0;
+    .about-image,
+    .pricing-image {
+        &-photo {
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+
+    .sponsors {
+        &-content {
+            img {
+                width: 10%;
+                height: 10%;
+                margin: 10px;
             }
         }
+    }
+
+    .quotation {
+        &bg {
+            height: 30vh;
+        }
+
+        &-mark {
+            font-size: 1.5rem;
+        }
+    }
+
+    #contact-form {
+
+        .telephone,
+        .email {
+            display: block;
+            width: 50%;
+            margin: 0;
+        }
+    }
 }

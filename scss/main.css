@@ -365,6 +365,11 @@ hr {
     width: 15rem;
     height: 15rem;
   }
+  .sponsors-content img {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+  }
   .quotationbg {
     height: 30vh;
   }
