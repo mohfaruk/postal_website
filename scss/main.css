@@ -1,6 +1,8 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Satisfy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -24,11 +26,13 @@ a {
 }
 
 h1 {
+  font-family: "Abril Fatface", cursive;
   font-weight: 300;
   line-height: 1.2;
 }
 
 p {
+  font-family: "Roboto Slab", serif;
   margin: 10px 0;
 }
 
@@ -48,7 +52,7 @@ hr {
   padding: 0 10px;
 }
 
-.text-purple {
+.text-blue {
   color: #00b4d8;
   font-weight: bold;
 }
@@ -57,6 +61,11 @@ hr {
   display: block;
   font-style: italic;
   line-height: 1.5;
+}
+
+.bg-blue {
+  background-color: #5ec7da;
+  color: #fff;
 }
 
 /* Buttons */
@@ -68,6 +77,7 @@ hr {
   border-radius: 5px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  font-family: "Roboto Slab", serif;
 }
 
 .btn:hover {
@@ -162,7 +172,14 @@ hr {
 }
 
 .header-bg .content h1 {
-  font-size: 55px;
+  font-family: "Patua One", cursive;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.header-bg .content h1 span {
+  line-height: 5rem;
 }
 
 .header-bg .content p {
@@ -179,7 +196,7 @@ hr {
 }
 
 /* About Section */
-.about-content {
+.about-content, .pricing-content {
   height: 100%;
   place-items: center;
   -webkit-box-pack: center;
@@ -187,82 +204,28 @@ hr {
           justify-content: center;
 }
 
-.about-text {
+.about-content h1, .pricing-content h1 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 5px;
+}
+
+.about-text, .pricing-text {
   color: #333;
-  width: 50%;
-  float: left;
   line-height: 2rem;
   padding: 4% 0 5% 0;
   margin: 40px 0;
 }
 
-.about-image {
-  float: right;
-  width: 50%;
-  height: 50%;
-  padding-top: 5%;
-  margin: 40px 0;
-}
-
-.about-image-photo {
-  width: 20rem;
-  height: 20rem;
-  margin: auto;
-  display: block;
-  border-radius: 50%;
-}
-
-/* Images Section */
-#image-section {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.sponsers-content h1 {
+  font-family: "Abril Fatface", cursive;
   text-align: center;
-  height: 60vh;
+  margin: 30px;
 }
 
-#image-section .images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  padding: 0 20px;
-  margin: 40px 0;
-}
-
-/* Events Section */
-.pricing-text {
-  color: #333;
-  width: 50%;
-  float: right;
-  line-height: 2rem;
-  margin: 40px 0;
-}
-
-.pricing-image {
-  float: left;
-  width: 50%;
-  height: 50%;
-  padding: 4% 0 5% 0;
-}
-
-.pricing-image-photo {
-  width: 20rem;
-  height: 20rem;
-  margin: auto;
-  display: block;
-  border-radius: 50%;
+.sponsers-content img {
+  width: 20%;
+  height: 20%;
+  margin: 20px;
 }
 
 /* Quotation Section */
@@ -279,6 +242,7 @@ hr {
 }
 
 .quotation-text {
+  font-family: "Inconsolata", monospace;
   margin: 50px 0;
   font-size: 1.7rem;
 }
@@ -289,9 +253,15 @@ hr {
   margin-bottom: 20px;
 }
 
+#contact-form h1 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 5px;
+}
+
 #contact-form label {
   display: block;
   margin-bottom: 5px;
+  font-family: "Roboto Slab", serif;
 }
 
 #contact-form input,
@@ -373,7 +343,7 @@ hr {
     height: 80vh;
   }
   .header-bg .content h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .header-bg .content p {
     font-size: 15px;
@@ -390,18 +360,16 @@ hr {
     float: none;
     width: auto;
   }
-  .about-image-photo, .pricing-image-photo {
+  .about-image-photo,
+  .pricing-image-photo {
     width: 15rem;
     height: 15rem;
-  }
-  .quotation-text {
-    margin: 50px 0;
-    font-size: 1.2rem;
   }
   .quotation-mark {
     font-size: 1.5rem;
   }
-  #contact-form .telephone, #contact-form .email {
+  #contact-form .telephone,
+  #contact-form .email {
     display: block;
     width: 50%;
     margin: 0;

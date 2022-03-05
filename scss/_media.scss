@@ -1,6 +1,4 @@
-@media (max-width: 1024px) {
-
-    @media screen and (min-width: 600px) and (orientation: landscape) {
+@media(max-width: 1024px) {
         .navbar {
             &-logo {
                 display: none;
@@ -27,7 +25,7 @@
                 height: 80vh;
 
                 .content h1 {
-                    font-size: 30px;
+                    font-size: 35px;
                 }
 
                 .content p {
@@ -59,10 +57,10 @@
         }
 
         .quotation {
-            &-text {
-                margin: 50px 0;
-                font-size: 1.2rem;
-            }
+            //&-text {
+                //margin: 50px 0;
+                // font-size: 1.2rem;
+            //}
 
             &-mark {
                 font-size: 1.5rem;
@@ -78,5 +76,4 @@
                 margin: 0;
             }
         }
-    }
 }

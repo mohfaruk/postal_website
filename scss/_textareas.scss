@@ -1,0 +1,20 @@
+/* About Section */
+.about, .pricing {
+    &-content {
+        height: 100%;
+        place-items: center;
+        justify-content: center;
+
+        h1 {
+            font-family: $section-font;
+            letter-spacing: 5px;
+        }
+    }
+
+    &-text {
+        color: $text-colour;
+        line-height: 2rem;
+        padding: 4% 0 5% 0;
+        margin: 40px 0;
+    }
+}

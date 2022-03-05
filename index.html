@@ -32,7 +32,9 @@
 
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar fixed-top navbar-expand top scroll">
+    <nav
+      class="navbar fixed-top navbar-expand navbar-light bg-light top scroll"
+    >
       <div class="navbar-logo">
         <a href="#"><img src="./dist/images/logo-image.jpg" /></a>
       </div>
@@ -42,7 +44,7 @@
             <a class="nav-link" href="#about-section">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pricing-section">Price</a>
+            <a class="nav-link" href="#pricing-section">Pricing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact-form">Contact</a>
@@ -55,8 +57,11 @@
     <section id="header">
       <header class="header-bg" id="navbarSupportedContent">
         <div class="content scroll">
-          <h1>Let us handle your deliveries!</h1>
-          <p>Join hundreds of satisfied customers today.</p>
+          <h1>
+            <span>TIME IS OF THE ESSENCE SO</span>
+            <br />
+            <span>YOU CAN BE SURE WE WILL DELIEVER</span>
+          </h1>
           <a href="#about-section" class="btn btn-header">Learn more</a>
         </div>
       </header>
@@ -67,110 +72,56 @@
       <div class="about-content">
         <div class="container">
           <div class="about-text">
-            <h1><span class="text-purple">About</span> Roman Post</h1>
+            <h1><span class="text-blue">About</span> Roman Post</h1>
             <p>
               Are you working from home? Have a business constantly on the move?
-              Leaving the country for a long period of time? Or you just need
-              that space from your household and need a safe and accessible
-              location to receive a your letters and parcels. Roman Post has the
-              service for you, Located in the heart of London we service Large
-              Business, individuals and many others from our virtual offices to
-              our physical mailbox lockers.
+              Leaving the country for a long period of time? Or do you just need
+              more space in your household? Roman Post has the service for you.
+              Located in the heart of London we provide a quality delivery and
+              printing service for large businesses and individuals alike, from
+              our virtual offices to our physical mailbox lockers.
+              <br />
+              <br />
+              You can be sure that your belongings will be held in a safe and
+              accessible location for your collection!
             </p>
           </div>
-          <div class="about-image">
-            <img
-              class="about-image-photo"
-              src="./dist/images/about-image.jpg"
-            />
-          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsors-section" data-aos="fade-up">
+      <div class="sponsers-content bg-blue">
+        <div class="container">
+          <h1>Companies We Work With</h1>
+          <img src="./dist/images/ups.png" />
+          <img src="./dist/images/royal-mail.png" />
+          <img src="./dist/images/fedex.png" />
+          <img src="./dist/images/dhl.png" />
         </div>
       </div>
     </section>
 
     <!-- Pricing Section -->
     <section id="pricing-section" data-aos="fade-up">
-      <div class="container">
-        <div class="pricing-text">
-          <h1><span class="text-purple">Our</span> Pricing</h1>
-          <p>
-            For just £15 a month we can receive letters and parcels on your
-            behalf from every delivery company. In addition to this you will get
-            a physical mailing address that you can use at your will. Get access
-            to exclusive discounts with us when you ship with DHL, Fedex and
-            ParcelForce.
-          </p>
-        </div>
-        <div class="pricing-image">
-          <img
-            class="pricing-image-photo"
-            src="./dist/images/event-image.jpg"
-          />
+      <div class="pricing-content">
+        <div class="container">
+          <div class="pricing-text">
+            <h1><span class="text-blue">Our</span> Pricing</h1>
+            <p>
+              For just £15 a month we can receive letters and parcels on your
+              behalf from a variety of popular delivery companies (see above).
+              In addition to this you will get a physical mailing address that
+              you can use at your will. Get access to exclusive discounts with
+              us when you ship with DHL, Fedex and ParcelForce.
+              <br />
+              <br />
+              We also offer printing services which you can enquire more about.
+            </p>
+          </div>
         </div>
       </div>
     </section>
-    <!-- <div class="container">
-      <h3 class="business-text">
-        Simple and affordable price plans to attract more customers
-      </h3>
-      <div class="row">
-        <div class="business-column col-lg col-md-6">
-          <div class="card">
-            <div class="card-header">
-              <h3>Premium</h3>
-            </div>
-            <div class="card-body">
-              <h3 class="price-header">£9.99 per month</h3>
-              <p>Basic Plan</p>
-              <button
-                type="button"
-                class="purchase-btn btn btn-lg btn-block btn-outline-dark"
-              >
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="business-column col-lg">
-          <div class="card">
-            <div class="card-header">
-              <h2>VIP</h2>
-            </div>
-            <div class="card-body">
-              <h3 class="price-header">£14.99 per month</h3>
-              <p>Premium Plan</p>
-              <button
-                type="button"
-                class="purchase-btn btn btn-lg btn-block btn-outline-dark"
-              >
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div class="business-column col-lg">
-          <div class="card">
-            <div class="card-header">
-              <h2>VIP</h2>
-            </div>
-            <div class="card-body">
-              <h3 class="price-header">£14.99 per month</h3>
-              <p>Premium Plan</p>
-              <button
-                type="button"
-                class="purchase-btn btn btn-lg btn-block btn-outline-dark"
-              >
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <!-- Quotation Section-->
     <section id="quotation-section">
@@ -201,7 +152,7 @@
     <!-- Contact Section -->
     <section id="contact-form" data-aos="fade-down">
       <div class="container">
-        <h1 class="l-heading"><span class="text-purple">Contact</span> Us</h1>
+        <h1 class="l-heading"><span class="text-blue">Contact</span> Us</h1>
         <p>
           Please fill out the form below to subscribe to our postal service.
         </p>
