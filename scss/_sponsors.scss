@@ -1,5 +1,8 @@
 .sponsors {
     &-content {
+        display: flex;
+        justify-content: center;
+
         h1 {
             font-family: $section-font;
             text-align: center;

@@ -216,6 +216,15 @@ hr {
   margin: 40px 0;
 }
 
+.sponsors-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .sponsors-content h1 {
   font-family: "Abril Fatface", cursive;
   text-align: center;
@@ -370,7 +379,7 @@ hr {
     height: 10%;
     margin: 10px;
   }
-  .quotationbg {
+  .quotation-bg {
     height: 30vh;
   }
   .quotation-mark {
