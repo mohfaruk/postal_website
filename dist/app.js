@@ -1,3 +1,11 @@
+// Display Header Image
+const headerImg = document.querySelector(".header-bg");
+function displayImg() {
+  headerImg.style.display = "block";
+}
+
+displayImg();
+
 // Navbar Hidden Effect
 const scroll = document.querySelector(".scroll");
 let scrolled = false;
