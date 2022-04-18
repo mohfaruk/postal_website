@@ -13,8 +13,7 @@
     transition: 0.5s;
 
     &-logo {
-        margin-left: 100px;
-        cursor: pointer;
+        margin-left: 50px;
     }
 
     &-nav {
@@ -23,13 +22,13 @@
         .nav-link {
             padding: 20px;
             margin: 0 15px;
-            color: #fff;
+            color: #333;
+            font-weight: bold;
+            transition: .3s;
         }
 
         .nav-link:hover {
-            text-decoration: underline;
-            text-decoration-color: $main-colour;
-            text-decoration-thickness: 5px;
+            color: $main-colour;
         }
     }
 }

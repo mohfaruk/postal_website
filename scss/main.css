@@ -109,8 +109,7 @@ hr {
 }
 
 .navbar-logo {
-  margin-left: 100px;
-  cursor: pointer;
+  margin-left: 50px;
 }
 
 .navbar-nav {
@@ -120,14 +119,14 @@ hr {
 .navbar-nav .nav-link {
   padding: 20px;
   margin: 0 15px;
-  color: #fff;
+  color: #333;
+  font-weight: bold;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .navbar-nav .nav-link:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #00b4d8;
-          text-decoration-color: #00b4d8;
-  text-decoration-thickness: 5px;
+  color: #00b4d8;
 }
 
 /* Header */
@@ -327,9 +326,6 @@ hr {
 }
 
 @media (max-width: 1024px) {
-  .navbar-logo {
-    display: none;
-  }
   .navbar-nav {
     text-align: center;
     -webkit-box-pack: center;

@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -74,6 +75,7 @@ hr {
   margin: 20px 0 30px;
   padding: 10px;
   border-radius: 5px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   font-family: "Roboto Slab", serif;
 }
@@ -86,8 +88,14 @@ hr {
 
 /* Navbar */
 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: #444;
   opacity: 0.8;
@@ -96,24 +104,29 @@ hr {
   position: fixed;
   top: 0px;
   padding: 0;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 .navbar-logo {
-  margin-left: 100px;
-  cursor: pointer;
+  margin-left: 50px;
 }
+
 .navbar-nav {
   margin-right: 100px;
 }
+
 .navbar-nav .nav-link {
   padding: 20px;
   margin: 0 15px;
-  color: #fff;
+  color: #333;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
+
 .navbar-nav .nav-link:hover {
-  text-decoration: underline;
-  text-decoration-color: #00b4d8;
-  text-decoration-thickness: 5px;
+  color: #00b4d8;
 }
 
 /* Header */
@@ -123,6 +136,7 @@ hr {
   position: relative;
   color: #fff;
 }
+
 .header-bg::before {
   content: "";
   position: absolute;
@@ -132,32 +146,47 @@ hr {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+
 .header-bg * {
   z-index: 1;
 }
+
 .header-bg .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
   height: 100%;
   padding: 0 20px;
 }
+
 .header-bg .content h1 {
   font-family: "Patua One", cursive;
   font-size: 60px;
   font-weight: 300;
   letter-spacing: 5px;
 }
+
 .header-bg .content h1 span {
   line-height: 5rem;
 }
+
 .header-bg .content p {
   font-size: 23px;
   max-width: 600px;
   margin: 20px 0 30px;
 }
+
 .header-bg a {
   height: 50px;
   width: 150px;
@@ -169,12 +198,16 @@ hr {
 .about-content, .pricing-content {
   height: 100%;
   place-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
+
 .about-content h1, .pricing-content h1 {
   font-family: "Abril Fatface", cursive;
   letter-spacing: 5px;
 }
+
 .about-text, .pricing-text {
   color: #333;
   line-height: 2rem;
@@ -183,14 +216,20 @@ hr {
 }
 
 .sponsors-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
+
 .sponsors-content h1 {
   font-family: "Abril Fatface", cursive;
   text-align: center;
   margin: 30px;
 }
+
 .sponsors-content img {
   width: 20%;
   height: 20%;
@@ -204,9 +243,11 @@ hr {
   position: relative;
   color: #fff;
 }
+
 .quotation-bg .quote-mark {
   font-size: 2.5rem;
 }
+
 .quotation-text {
   font-family: "Inconsolata", monospace;
   margin: 50px 0;
@@ -218,37 +259,45 @@ hr {
   width: 100%;
   margin-bottom: 20px;
 }
+
 #contact-form h1 {
   font-family: "Abril Fatface", cursive;
   letter-spacing: 5px;
 }
+
 #contact-form label {
   display: block;
   margin-bottom: 5px;
   font-family: "Roboto Slab", serif;
 }
+
 #contact-form input,
 #contact-form textarea {
   width: 100%;
   padding: 10px;
   border: 1px #ddd solid;
 }
+
 #contact-form textarea {
   height: 200px;
 }
+
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
   border-color: #5ec7da;
 }
+
 #contact-form .telephone,
 #contact-form .email {
   display: inline-block;
 }
+
 #contact-form .telephone input,
 #contact-form .email input {
   width: 200%;
 }
+
 #contact-form .email {
   margin-left: 300px;
 }
@@ -259,14 +308,17 @@ hr {
   padding: 5px;
   background: #444;
 }
+
 .footer-icon {
   color: #fff;
   padding: 1%;
 }
+
 .footer-icon:hover {
   cursor: pointer;
   color: #C8C6C6;
 }
+
 .footer p {
   text-align: center;
   color: #fff;
@@ -274,12 +326,13 @@ hr {
 }
 
 @media (max-width: 1024px) {
-  .navbar-logo {
-    display: none;
-  }
   .navbar-nav {
     text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: absolute;
     padding: 0;
@@ -287,6 +340,7 @@ hr {
     left: 30%;
     margin-bottom: 15px;
   }
+
   .navbar-link {
     margin: 0;
   }
@@ -294,12 +348,15 @@ hr {
   .header-bg {
     height: 80vh;
   }
+
   .header-bg .content h1 {
     font-size: 35px;
   }
+
   .header-bg .content p {
     font-size: 15px;
   }
+
   .header-bg .menu-btn {
     font-size: 15px;
     margin: 10px 0 20px;
@@ -328,6 +385,7 @@ hr {
   .quotation-bg {
     height: 30vh;
   }
+
   .quotation-mark {
     font-size: 1.5rem;
   }
@@ -339,5 +397,6 @@ hr {
     margin: 0;
   }
 }
+/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
