@@ -1,14 +1,15 @@
 //Import Variables & Utilities
- @import 'variables';
- @import 'utilities';
+@import 'variables';
+@import 'utilities';
+@import 'textareas';
 
- //Import Sections
- @import 'header';
- @import 'textareas';
- @import 'sponsors';
- @import 'quotation';
- @import 'contact';
- @import 'footer';
+//Import Sections
+@import 'header';
+@import 'about';
+@import 'sponsors';
+@import 'quotation';
+@import 'contact';
+@import 'footer';
 
 //Import media queries
 @import 'media';

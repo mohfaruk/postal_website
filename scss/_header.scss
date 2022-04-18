@@ -37,7 +37,7 @@
 .header {
     &-bg {
         background: $header-image no-repeat center/cover;
-        height: 100vh;
+        height: 85vh;
         position: relative;
         color: #fff;
 
@@ -66,7 +66,7 @@
 
             h1 {
                 font-family: $header-font;
-                font-size: 60px;
+                font-size: 50px;
                 font-weight: 300;
                 letter-spacing: 5px;
 

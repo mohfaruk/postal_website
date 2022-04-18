@@ -86,6 +86,26 @@ hr {
   color: #fff;
 }
 
+.about-content, .pricing-content {
+  height: 100%;
+  place-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.about-content h1, .pricing-content h1 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 5px;
+}
+
+.about-text, .pricing-text {
+  color: #333;
+  line-height: 2rem;
+  padding: 4% 0 5% 0;
+  margin: 40px 0;
+}
+
 /* Navbar */
 .navbar {
   display: -webkit-box;
@@ -132,7 +152,7 @@ hr {
 /* Header */
 .header-bg {
   background: url("../dist/images/header-image.jpg") no-repeat center/cover;
-  height: 100vh;
+  height: 85vh;
   position: relative;
   color: #fff;
 }
@@ -172,7 +192,7 @@ hr {
 
 .header-bg .content h1 {
   font-family: "Patua One", cursive;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 300;
   letter-spacing: 5px;
 }
@@ -194,25 +214,57 @@ hr {
   font-weight: bold;
 }
 
-/* About Section */
-.about-content, .pricing-content {
-  height: 100%;
-  place-items: center;
+.our-services {
+  padding: 3rem 7%;
+}
+
+.our-services h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.main-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
-.about-content h1, .pricing-content h1 {
-  font-family: "Abril Fatface", cursive;
-  letter-spacing: 5px;
+.inner-services {
+  padding: 3rem 0;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.about-text, .pricing-text {
-  color: #333;
-  line-height: 2rem;
-  padding: 4% 0 5% 0;
-  margin: 40px 0;
+.inner-services:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.inner-services .service-icons {
+  width: 50px;
+  height: 50px;
+  background: #333;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.inner-services .service-icons i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.inner-services p {
+  padding: 0 2rem;
+  font-size: 20px;
 }
 
 .sponsors-content {
