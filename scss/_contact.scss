@@ -30,18 +30,4 @@
         outline: none;
         border-color: $secondary-colour;
     }
-
-    .telephone,
-    .email {
-        display: inline-block;
-    }
-
-    .telephone input,
-    .email input {
-        width: 200%;
-    }
-
-    .email {
-        margin-left: 300px;
-    }
 }

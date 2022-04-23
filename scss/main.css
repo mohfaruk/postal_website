@@ -340,20 +340,6 @@ hr {
   border-color: #5ec7da;
 }
 
-#contact-form .telephone,
-#contact-form .email {
-  display: inline-block;
-}
-
-#contact-form .telephone input,
-#contact-form .email input {
-  width: 200%;
-}
-
-#contact-form .email {
-  margin-left: 300px;
-}
-
 /* Footer */
 .footer {
   text-align: center;
@@ -430,12 +416,6 @@ hr {
   }
   .quotation-mark {
     font-size: 1.5rem;
-  }
-  #contact-form .telephone,
-  #contact-form .email {
-    display: block;
-    width: 50%;
-    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
