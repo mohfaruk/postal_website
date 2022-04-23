@@ -28,7 +28,7 @@ From your command line, first clone this repo:
 
 # Clone this repository
 
-$ git clone https://github.com/rgneville/material-ui-site
+$ git clone https://github.com/mohfaruk/postal_website.git
 
 # Go into the repository
 
