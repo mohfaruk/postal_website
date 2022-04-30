@@ -155,6 +155,7 @@ hr {
   height: 85vh;
   position: relative;
   color: #fff;
+  visibility: hidden;
 }
 
 .header-bg::before {

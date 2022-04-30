@@ -1,11 +1,16 @@
-// Display Header Image
+// Fix FOUC
 const headerImg = document.querySelector(".header-bg");
 
-function displayImg() {
-  headerImg.style.display = "block";
-}
+let domReady = cb => {
+  document.readyState === "interactive" || document.readyState === "complete"
+    ? cb()
+    : document.addEventListener("DOMContentLoaded", cb);
+};
 
-displayImg();
+domReady(() => {
+  // Display body when DOM is loaded
+  headerImg.style.visibility = "visible";
+});
 
 // Smooth Scrolling
 const links = document.querySelectorAll(".nav-link");
