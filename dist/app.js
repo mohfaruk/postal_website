@@ -1,15 +1,15 @@
 // Fix FOUC
-const headerImg = document.querySelector(".header-bg");
+//const headerImg = document.querySelector(".header-bg");
 
-let domReady = cb => {
+let domReady = dom => {
   document.readyState === "interactive" || document.readyState === "complete"
-    ? cb()
-    : document.addEventListener("DOMContentLoaded", cb);
+    ? dom()
+    : document.addEventListener("DOMContentLoaded", dom);
 };
 
 domReady(() => {
   // Display body when DOM is loaded
-  headerImg.style.visibility = "visible";
+  document.body.style.visibility = "visible";
 });
 
 // Smooth Scrolling
