@@ -364,6 +364,9 @@ hr {
 }
 
 @media (max-width: 1024px) {
+  .navbar {
+    height: 120px;
+  }
   .navbar-nav {
     text-align: center;
     -webkit-box-pack: center;
@@ -378,8 +381,8 @@ hr {
     left: 30%;
     margin-bottom: 15px;
   }
-  .navbar-link {
-    margin: 0;
+  .navbar-nav .nav-link {
+    font-size: 20px;
   }
   .header-bg {
     height: 80vh;

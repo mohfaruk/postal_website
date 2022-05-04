@@ -1,5 +1,6 @@
 @media(max-width: 1024px) {
     .navbar {
+        height: 120px;
 
         &-nav {
             text-align: center;
@@ -10,11 +11,13 @@
             right: 15%;
             left: 30%;
             margin-bottom: 15px;
+            
+            .nav-link {
+                font-size: 20px;
+            }
         }
 
-        &-link {
-            margin: 0;
-        }
+      
     }
 
     .header {
